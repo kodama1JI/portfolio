@@ -1,0 +1,12 @@
+[
+  { "id": "s1", "category": "البرمجة", "name": "Flutter", "icon_key": "flutter" },
+  { "id": "s2", "category": "البرمجة", "name": "Dart", "icon_key": "dart" },
+  { "id": "s3", "category": "إدارة الحالة", "name": "Provider", "icon_key": "provider" },
+  { "id": "s4", "category": "التخزين", "name": "Shared Preferences", "icon_key": "storage" },
+  { "id": "s5", "category": "واجهات الشبكة", "name": "واجهات خلفية", "icon_key": "api" },
+  { "id": "s6", "category": "الويب", "name": "HTML", "icon_key": "web" },
+  { "id": "s7", "category": "الويب", "name": "CSS", "icon_key": "web" },
+  { "id": "s8", "category": "الويب", "name": "JavaScript", "icon_key": "web" },
+  { "id": "s9", "category": "الويب", "name": "PHP", "icon_key": "web" },
+  { "id": "s10", "category": "الباك إند", "name": "NestJS", "icon_key": "nestjs" }
+]

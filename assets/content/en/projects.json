@@ -1,0 +1,22 @@
+[
+  {
+    "id": "proj-careppo",
+    "title": "Careppo",
+    "description": "A mobile car rental app built with Flutter. Users can browse available cars, view photos, specifications, and features, and track requests. It includes login and a guest mode, integrates with a backend API for bookings, and uses Provider with Shared Preferences for local storage. The interface also covers account status updates and online communication.",
+    "github_url": null,
+    "live_url": "https://play.google.com/store/apps/details?id=com.ismaeel.careppo&pli=1",
+    "image_url": "assets/images/careppo_cover.jpg",
+    "tech_stack": ["Flutter", "Provider", "Shared Preferences", "Backend API"],
+    "is_featured": true
+  },
+  {
+    "id": "proj-myfacility",
+    "title": "MyFacility",
+    "description": "An industrial facility management app with account creation, login, and fingerprint authentication. The dashboard shows company balance, outstanding amounts, receivables, and the last inventory date. It covers sales, purchasing, employees, inventory, receivables, and customer accounts, plus exchange-rate input with automatic balance recalculation and PDF export.",
+    "github_url": null,
+    "live_url": "https://www.mediafire.com/file/1323ndeq3qj6hg1/MyFacility.apk/file",
+    "image_url": "assets/images/myfacility_cover.jpg",
+    "tech_stack": ["Flutter", "Dart", "PDF Export"],
+    "is_featured": true
+  }
+]

@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "about": "نبذة",
+    "experience": "الخبرة",
+    "projects": "المشاريع",
+    "skills": "المهارات",
+    "contact": "تواصل",
+    "resume": "السيرة",
+    "theme": "تبديل المظهر",
+    "language": "تبديل اللغة",
+    "language_short": "EN"
+  },
+  "hero": {
+    "eyebrow": "متاح للفرص",
+    "tagline": "أبني تطبيقات Flutter عالية الأداء بواجهات تفاعلية وتكامل مع الواجهات الخلفية وProvider.",
+    "cta_contact": "تواصل معي",
+    "cta_work": "عرض الأعمال",
+    "cta_resume": "تحميل السيرة الذاتية"
+  },
+  "about": {
+    "eyebrow": "نبذة",
+    "title": "تطبيقات Flutter عملية وقابلة للتوسع",
+    "subtitle": "أنظمة تأجير السيارات وإدارة المنشآت، إلى جانب تطبيقات إنتاجية في BSS FLOW."
+  },
+  "experience": {
+    "eyebrow": "الخبرة",
+    "title": "أين أنجزت",
+    "subtitle": "تعاون مع فرق المنتج والتصميم والخلفية.",
+    "present": "الحاضر"
+  },
+  "projects": {
+    "eyebrow": "المشاريع",
+    "title": "أعمال مختارة",
+    "subtitle": "تأجير سيارات وإدارة منشآت صناعية.",
+    "view_code": "عرض الكود",
+    "github": "فتح على GitHub",
+    "download_app": "تحميل التطبيق"
+  },
+  "skills": {
+    "eyebrow": "المهارات",
+    "title": "أدوات أستخدمها يومياً",
+    "subtitle": "Flutter وDart وProvider والتخزين المحلي وNestJS وتقنيات الويب."
+  },
+  "education": {
+    "eyebrow": "الخلفية",
+    "title": "التعليم",
+    "subtitle": "هندسة تكنولوجيا المعلومات في جامعة الشهباء الخاصة.",
+    "degrees": "التعليم",
+    "certs": "الشهادات",
+    "languages": "اللغات"
+  },
+  "contact": {
+    "eyebrow": "تواصل",
+    "title": "لنبنِ شيئاً متيناً",
+    "subtitle": "مفتوح للتعاون والعمل الحر ووظائف Flutter بدوام كامل.",
+    "email_me": "راسلني",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "copy_email": "نسخ البريد",
+    "copied": "تم نسخ البريد",
+    "download_resume": "تحميل السيرة الذاتية",
+    "resume_downloaded": "بدأ تحميل السيرة الذاتية",
+    "resume_failed": "تعذر تحميل السيرة الذاتية"
+  },
+  "footer": {
+    "built_with": "مبني بـ Flutter Web · Clean Architecture · محتوى محلي",
+    "rights": "جميع الحقوق محفوظة."
+  },
+  "common": {
+    "loading": "جارٍ تحميل المعرض…",
+    "retry": "إعادة المحاولة"
+  },
+  "errors": {
+    "server": "تعذر تحميل بيانات المعرض.",
+    "network": "خطأ في الشبكة. تحقق من اتصالك.",
+    "cache": "تعذر قراءة البيانات المخزنة."
+  }
+}

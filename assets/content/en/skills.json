@@ -1,0 +1,12 @@
+[
+  { "id": "s1", "category": "Programming", "name": "Flutter", "icon_key": "flutter" },
+  { "id": "s2", "category": "Programming", "name": "Dart", "icon_key": "dart" },
+  { "id": "s3", "category": "State Management", "name": "Provider", "icon_key": "provider" },
+  { "id": "s4", "category": "Storage", "name": "Shared Preferences", "icon_key": "storage" },
+  { "id": "s5", "category": "APIs & Networking", "name": "Backend APIs", "icon_key": "api" },
+  { "id": "s6", "category": "Web", "name": "HTML", "icon_key": "web" },
+  { "id": "s7", "category": "Web", "name": "CSS", "icon_key": "web" },
+  { "id": "s8", "category": "Web", "name": "JavaScript", "icon_key": "web" },
+  { "id": "s9", "category": "Web", "name": "PHP", "icon_key": "web" },
+  { "id": "s10", "category": "Backend", "name": "NestJS", "icon_key": "nestjs" }
+]

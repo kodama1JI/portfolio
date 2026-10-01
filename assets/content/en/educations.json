@@ -1,0 +1,10 @@
+[
+  {
+    "id": "edu-it",
+    "degree": "Information Technology Engineering",
+    "institution": "Al Shahbaa Private University",
+    "start_date": "2020-01-01",
+    "end_date": "2025-01-01",
+    "is_current": false
+  }
+]
