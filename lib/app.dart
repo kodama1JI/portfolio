@@ -30,7 +30,7 @@ class PortfolioApp extends StatelessWidget {
                 themeMode: themeMode,
                 localizationsDelegates: context.localizationDelegates,
                 supportedLocales: context.supportedLocales,
-                locale: const Locale('en'),
+                locale: context.locale,
                 routerConfig: appRouter,
               );
             },

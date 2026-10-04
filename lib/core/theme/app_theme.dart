@@ -29,10 +29,38 @@ class AppTheme {
       ),
     );
 
+    final cairoFamily = GoogleFonts.cairo().fontFamily;
+    TextStyle? withArabic(TextStyle? style) {
+      if (style == null) return null;
+      return style.copyWith(
+        fontFamilyFallback: [
+          ?cairoFamily,
+        ],
+      );
+    }
+
+    final textTheme = GoogleFonts.soraTextTheme(base.textTheme).apply(
+      bodyColor: colors.textPrimary,
+      displayColor: colors.textPrimary,
+    );
+
     return base.copyWith(
-      textTheme: GoogleFonts.soraTextTheme(base.textTheme).apply(
-        bodyColor: colors.textPrimary,
-        displayColor: colors.textPrimary,
+      textTheme: textTheme.copyWith(
+        displayLarge: withArabic(textTheme.displayLarge),
+        displayMedium: withArabic(textTheme.displayMedium),
+        displaySmall: withArabic(textTheme.displaySmall),
+        headlineLarge: withArabic(textTheme.headlineLarge),
+        headlineMedium: withArabic(textTheme.headlineMedium),
+        headlineSmall: withArabic(textTheme.headlineSmall),
+        titleLarge: withArabic(textTheme.titleLarge),
+        titleMedium: withArabic(textTheme.titleMedium),
+        titleSmall: withArabic(textTheme.titleSmall),
+        bodyLarge: withArabic(textTheme.bodyLarge),
+        bodyMedium: withArabic(textTheme.bodyMedium),
+        bodySmall: withArabic(textTheme.bodySmall),
+        labelLarge: withArabic(textTheme.labelLarge),
+        labelMedium: withArabic(textTheme.labelMedium),
+        labelSmall: withArabic(textTheme.labelSmall),
       ),
       appBarTheme: AppBarTheme(
         backgroundColor: colors.background.withValues(alpha: 0.85),

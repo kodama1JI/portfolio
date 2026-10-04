@@ -100,6 +100,14 @@ class PortfolioNavBar extends StatelessWidget {
             _ResumeNavButton(onPressed: () => _downloadResume(context)),
             const SizedBox(width: AppDimens.space8),
           ],
+          _LanguageButton(
+            onPressed: () {
+              final next = context.locale.languageCode == 'ar'
+                  ? const Locale('en')
+                  : const Locale('ar');
+              context.setLocale(next);
+            },
+          ),
           IconButton(
             tooltip: 'nav.theme'.tr(),
             onPressed: () => context.read<ThemeCubit>().toggleLightDark(),
@@ -179,6 +187,60 @@ class PortfolioNavBar extends StatelessWidget {
           ),
         ),
       ],
+    );
+  }
+}
+
+class _LanguageButton extends StatefulWidget {
+  const _LanguageButton({required this.onPressed});
+
+  final VoidCallback onPressed;
+
+  @override
+  State<_LanguageButton> createState() => _LanguageButtonState();
+}
+
+class _LanguageButtonState extends State<_LanguageButton> {
+  bool _isHovered = false;
+
+  @override
+  Widget build(BuildContext context) {
+    final colors = context.appColors;
+
+    return Padding(
+      padding: const EdgeInsetsDirectional.only(end: AppDimens.space8),
+      child: Tooltip(
+        message: 'nav.language'.tr(),
+        child: MouseRegion(
+          onEnter: (_) => setState(() => _isHovered = true),
+          onExit: (_) => setState(() => _isHovered = false),
+          cursor: SystemMouseCursors.click,
+          child: GestureDetector(
+            onTap: widget.onPressed,
+            child: AnimatedContainer(
+              duration: const Duration(milliseconds: 180),
+              width: 40,
+              height: 40,
+              alignment: Alignment.center,
+              decoration: BoxDecoration(
+                color: _isHovered ? colors.accentMuted : Colors.transparent,
+                borderRadius: BorderRadius.circular(AppDimens.radiusFull),
+                border: Border.all(
+                  color: _isHovered ? colors.accent : colors.border,
+                ),
+              ),
+              child: Text(
+                'nav.language_short'.tr(),
+                style: AppTextStyles.labelMedium(colors).copyWith(
+                  color: _isHovered ? colors.accent : colors.textPrimary,
+                  fontWeight: FontWeight.w700,
+                  letterSpacing: 0.4,
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
     );
   }
 }

@@ -64,7 +64,9 @@
   },
   "footer": {
     "built_with": "Built with Flutter Web · Clean Architecture · Local content",
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "whatsapp": "WhatsApp",
+    "call": "Call"
   },
   "common": {
     "loading": "Loading portfolio…",

@@ -62,7 +62,7 @@ class _PortfolioViewState extends State<_PortfolioView> {
   @override
   void didChangeDependencies() {
     super.didChangeDependencies();
-    const languageCode = 'en';
+    final languageCode = context.locale.languageCode;
     if (_loadedLanguageCode == languageCode) return;
     _loadedLanguageCode = languageCode;
     WidgetsBinding.instance.addPostFrameCallback((_) {
@@ -148,7 +148,7 @@ class _PortfolioViewState extends State<_PortfolioView> {
                 error: (failure) => _ErrorBody(
                   message: failure.messageKey.tr(),
                   onRetry: () => context.read<PortfolioCubit>().load(
-                        languageCode: 'en',
+                        languageCode: context.locale.languageCode,
                       ),
                 ),
                 success: (content) => _SuccessBody(
@@ -252,7 +252,10 @@ class _SuccessBody extends StatelessWidget {
                       key: sectionKeys['contact'],
                       child: ContactSection(profile: content.profile),
                     ),
-                    PortfolioFooter(name: content.profile.fullName),
+                    PortfolioFooter(
+                      name: content.profile.fullName,
+                      phone: content.profile.phone,
+                    ),
                   ],
                 ),
               ),

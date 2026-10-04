@@ -64,7 +64,9 @@
   },
   "footer": {
     "built_with": "مبني بـ Flutter Web · Clean Architecture · محتوى محلي",
-    "rights": "جميع الحقوق محفوظة."
+    "rights": "جميع الحقوق محفوظة.",
+    "whatsapp": "واتساب",
+    "call": "اتصال"
   },
   "common": {
     "loading": "جارٍ تحميل المعرض…",
