@@ -54,7 +54,7 @@ class PortfolioSeedData {
         description:
             'An industrial facility management app with account creation, login, and fingerprint authentication. The dashboard shows company balance, outstanding amounts, receivables, and the last inventory date. It covers sales, purchasing, employees, inventory, receivables, and customer accounts, plus exchange-rate input with automatic balance recalculation and PDF export.',
         liveUrl:
-            'https://www.mediafire.com/file/1323ndeq3qj6hg1/MyFacility.apk/file',
+            'https://www.mediafire.com/file/va2t023izfaz6yi/MyFacility_new.apk/file',
         imageUrl: 'assets/images/myfacility_cover.jpg',
         techStack: ['Flutter', 'Dart', 'PDF Export'],
       ),

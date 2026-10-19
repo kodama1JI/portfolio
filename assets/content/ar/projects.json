@@ -14,7 +14,7 @@
     "title": "MyFacility",
     "description": "تطبيق لإدارة المنشآت الصناعية مع إنشاء حساب وتسجيل دخول ودعم المصادقة ببصمة الإصبع. تعرض اللوحة الرئيسية رصيد الشركة والمبالغ المستحقة والذمم وتاريخ آخر جرد. يشمل إدارة المبيعات والمشتريات والموظفين والمخزون والذمم وحسابات العملاء، مع إدخال أسعار الصرف وإعادة حساب الأرصدة تلقائياً وتصدير البيانات إلى PDF.",
     "github_url": null,
-    "live_url": "https://www.mediafire.com/file/1323ndeq3qj6hg1/MyFacility.apk/file",
+    "live_url": "https://www.mediafire.com/file/va2t023izfaz6yi/MyFacility_new.apk/file",
     "image_url": "assets/images/myfacility_cover.jpg",
     "tech_stack": ["Flutter", "Dart", "PDF Export"],
     "is_featured": true
